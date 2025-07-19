@@ -10,7 +10,7 @@ function InputFocus() {
   return (
     <div>
       <input ref={inputRef} type="text" /> {/* Step 2 */}
-      <button onClick={handleClick}>Focus Input</button>
+      <button onClick={handleClick}>Focus and Input</button>
     </div>
   );
 }
